@@ -63,6 +63,7 @@
             - 错误信息
     - GraphQL 风格设计
 
+- 日志处理
 - 构建
     - Makefile
 - 版本管理
@@ -110,6 +111,7 @@
 	- Docker 镜像构建
 	- 镜像启动
 	- DaoCloud
+	- DockerHub
 
 
 ---
