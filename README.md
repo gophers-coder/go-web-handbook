@@ -45,15 +45,31 @@
 - 认证/鉴权
 	- 权限：jwt
 
-- Restful 风格设计
-	- 路由
-	- 响应信息
-	- 错误码
+- API 设计
+    - Restful 风格设计
+        - 路由
+            - 路径参数
+            - 请求参数
+            - 消息体
+        - 响应信息
+            - 状态码
+            - 资源信息
+        - 错误码
+            - 错误码
+            - 错误信息
+    - GraphQL 风格设计
+
 - 构建
     - Makefile
 - 版本管理
     - git
 - 文档
+    - GoDoc
+        - 语法
+            - package
+            - function
+            - const
+        - doc.go
 	- Swagger
 	- Markdown
 	- Docsify
@@ -62,6 +78,9 @@
 	- PostMan 接口测试
 	- 单元测试
 	- 性能测试
+	    - 图表
+	    - 单个函数
+	    - PProf
 	- 代码覆盖率
 	    - codecov
 - 持续集成
