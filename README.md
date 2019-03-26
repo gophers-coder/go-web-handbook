@@ -22,7 +22,11 @@
 	- 原生库
 	    - net/http
 	    - template
-
+    - 数据库
+        - mysql
+        - postgres
+        - es
+        - redis
 - 项目结构设计
 - 单功能开发
 	- 参数验证
@@ -63,6 +67,14 @@
     - Makefile
 - 版本管理
     - git
+        -  提交规范
+            - feat
+            - docs
+            - test
+            - fix
+            - refactor
+            - chore
+            - style
 - 文档
     - GoDoc
         - 语法
@@ -83,6 +95,14 @@
 	    - PProf
 	- 代码覆盖率
 	    - codecov
+- 库管理
+	- go mod
+	- glide
+	- vgo
+	- govendor
+	- dep
+	- ...
+
 - 持续集成
 	- travisCI
 
