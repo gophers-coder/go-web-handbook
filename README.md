@@ -62,6 +62,21 @@
             - 错误码
             - 错误信息
     - GraphQL 风格设计
+	- Schema
+		- Type
+			- Scalar
+				- Int
+				- String
+				- Boolean
+				- Enum
+			- Object
+			- [] list
+			- ! required
+		- Query
+		- Mutation
+		- Subscription
+
+			
 
 - 日志处理
 - 构建
