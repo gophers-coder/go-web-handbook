@@ -12,7 +12,7 @@
 
 - [需求分析](system_design.md)
 - [模型设计](model_design.md)
-- 技术选型
+- [技术选型](technology_design.md)
 	- Go
 	- ORM
 		- gorm
@@ -32,8 +32,8 @@
         - postgres
         - es
         - redis
-- 项目结构设计
-- 单功能开发
+- [项目结构设计](project_design.md)
+- [单功能开发](function_design.md)
 	- 参数验证
 	    - 是否必须
 	    - 类型
@@ -51,11 +51,11 @@
 	- 删除资源
 	- 新增资源
 
-- 认证/鉴权
+- [认证/鉴权](jwt_design.md)
 	- 权限：jwt
 
 - API 设计
-    - Restful 风格设计
+    - [Restful 风格设计](restful_design.md)
         - 路由
             - 路径参数
             - 请求参数
@@ -66,7 +66,7 @@
         - 错误码
             - 错误码
             - 错误信息
-    - GraphQL 风格设计
+    - [GraphQL 风格设计](graphql_design.md)
 	- Schema
 		- Type
 			- Scalar
@@ -79,12 +79,10 @@
 			- ! required
 		- Query
 		- Mutation
-		- Subscription
+		- Subscription	
 
-			
-
-- 日志处理
-- 构建
+- [日志处理](log_design.md)
+- [构建](makefile_design.md)
     - Makefile
 - 版本管理
     - git
