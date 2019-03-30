@@ -3,9 +3,7 @@
 > Go Web 开发手册
 
 
-**本手册根据开发经验进行整理的 Go Web 开发注意事项，侧重点在编写具有 Restful 风格的 API，希望对你有所启发，同时，如果你想进行**
-
-**更多的补充，欢迎 Fork 项目。**
+**本手册根据开发经验进行整理的 Go Web 开发注意事项，侧重点在编写具有 Restful 风格的 API，希望对你有所启发，同时，如果你想进行更多的补充，欢迎 Fork 项目。**
 
 大纲:
 
@@ -84,7 +82,7 @@
 - [日志处理](log_design.md)
 - [构建](makefile_design.md)
     - Makefile
-- 版本管理
+- [版本管理](git_design.md)
     - git
         -  提交规范
             - feat
@@ -94,7 +92,7 @@
             - refactor
             - chore
             - style
-- 文档
+- [文档](docs_design.md)
     - GoDoc
         - 语法
             - package
@@ -105,7 +103,7 @@
 	- Markdown
 	- Docsify
 	- VuePress
-- 测试
+- [测试](test_design.md)
 	- PostMan 接口测试
 	- 单元测试
 	- 性能测试
@@ -114,7 +112,7 @@
 	    - PProf
 	- 代码覆盖率
 	    - codecov
-- 库管理
+- [库管理](package_design.md)
 	- go mod
 	- glide
 	- vgo
@@ -122,10 +120,10 @@
 	- dep
 	- ...
 
-- 持续集成
+- [持续集成](ci_design.md)
 	- travisCI
 
-- 持续部署
+- [持续部署](cd_design.md)
 	- Docker 镜像构建
 	- 镜像启动
 	- DaoCloud
