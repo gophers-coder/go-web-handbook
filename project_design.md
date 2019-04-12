@@ -40,3 +40,21 @@ README.md
 
 
 后续根据功能划分把相应的代码放在指定的目录下。
+
+举例来说：功能开发，置放在 `src`:  
+
+```text
+src
+└── moments
+    ├── assistance.go
+    ├── controller.go
+    ├── params.go
+    └── router.go
+
+```
+
+- moments 表示需要开发的功能实体
+- assistance.go 辅助控制器处理函数
+- controller.go 核心的路由处理器函数
+- params.go 请求参数处理函数，完成参数检验等功能
+- router.go 完成路由映射控制器功能
