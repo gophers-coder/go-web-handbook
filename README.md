@@ -80,8 +80,10 @@
 		- Subscription	
 
 - [日志处理](log_design.md)
+    - [代码示例](project/pkg/log/log.go)
 - [构建](makefile_design.md)
     - Makefile
+    - [代码示例](project/Makefile)
 - [版本管理](git_design.md)
     - git
         -  提交规范
