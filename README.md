@@ -81,6 +81,9 @@
 
 - [日志处理](log_design.md)
     - [代码示例](project/pkg/log/log.go)
+- [错误处理](error_design.md)
+    - [代码示例:错误信息定义](project/pkg/errorno/errors.go)
+    - [代码示例:错误集合](project/pkg/errorno/code.go)
 - [构建](makefile_design.md)
     - Makefile
     - [代码示例](project/Makefile)
