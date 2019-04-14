@@ -31,6 +31,7 @@
         - es
         - redis
 - [项目结构设计](project_design.md)
+    - ![](image/project.png)
 - [单功能开发](function_design.md)
 	- 参数验证
 	    - 是否必须
