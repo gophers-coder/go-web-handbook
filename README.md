@@ -89,50 +89,53 @@
     - [代码示例](project/Makefile)
 - [版本管理](git_design.md)
     - git
-        -  提交规范
-            - feat
-            - docs
-            - test
-            - fix
-            - refactor
-            - chore
-            - style
 - [文档](docs_design.md)
-    - GoDoc
+    - GoDoc 代码文档
         - 语法
             - package
+                - 代码库的功能、特性
+                - Example 主要的示例
             - function
+                - 函数注释：单个函数实现什么样的功能
             - const
+                - 主要的全局常量的注释
         - doc.go
-	- Swagger
-	- Markdown
-	- Docsify
-	- VuePress
+            - 可以用在整个 Package 的说明
+	- Swagger API 文档
+	    - 路由
+	    - 参数
+	    - 响应
+	    - Header
+	- Docsify、VuePress（使用 Markdown 语法）
 - [测试](test_design.md)
-	- PostMan 接口测试
+	- Postman 接口测试
+	    - project/collections/function/post、patch、get、delete
 	- 单元测试
-	- 性能测试
+	- 性能测试: 指标：并发数、QPS(每秒查询数 = 并发数/平均请求响应时间)、请求响应时间（TTLB: Time to last byte）
 	    - 图表
 	    - 单个函数
-	    - PProf
+	    - pprof(import _ "net/http/pprof")
+	    - 工具：Wrk, Jmeter, AB, Webbench
 	- 代码覆盖率
 	    - codecov
 - [库管理](package_design.md)
+    - 解决版本库引入管理的问题： 公开库、私有库
 	- go mod
-	- glide
-	- vgo
-	- govendor
+	- ~~glide~~
+	- ~~vgo~~
+	- ~~govendor~~
 	- dep
 	- ...
 
 - [持续集成](ci_design.md)
 	- travisCI
+	    - 结合 codecov
+	    - 结合 DockerHub
 
 - [持续部署](cd_design.md)
-	- Docker 镜像构建
-	- 镜像启动
+	- Docker 镜像构建: DockerHub
 	- DaoCloud
-	- DockerHub
+	    - 构建 + 部署
 
 
 ---

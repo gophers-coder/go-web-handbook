@@ -18,6 +18,19 @@
 - 结合相关图表展示，对有问题的地方进行优化
 
 
+- pprof
+```text
+import _ "net/http/pprof"
+
+
+go tool pprof ***/debug/pprof/profile
+
+top20
+
+top -cum
+
+```
+
 ## 指标
 
 - Codecov 统计代码覆盖率和相关文件的分析
