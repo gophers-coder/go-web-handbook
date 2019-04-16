@@ -32,7 +32,7 @@
         - redis
 - [项目结构设计](project_design.md)
 ![](image/project.png)
-- [单功能开发](function_design.md)
+- [单功能开发: 业务逻辑](function_design.md)
 	- 参数验证
 	    - 是否必须
 	    - 类型
@@ -52,7 +52,6 @@
 
 - [认证/鉴权](jwt_design.md)
 	- 权限：jwt
-
 - API 设计
     - [Restful 风格设计](restful_design.md)
         - 路由
